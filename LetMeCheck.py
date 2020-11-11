@@ -11,7 +11,7 @@ r = requests.get(producturl)
 r.raise_for_status()
 
 #email
-toAddress = ['@gmail.com']
+toAddresses = '@gmail.com'
 fromAddress = '@gmail.com'
 appPassword = ''
 
